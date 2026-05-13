@@ -10,6 +10,16 @@
         android:padding="16dp">
 
         <TextView
+            android:id="@+id/tvStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Etat securite"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:paddingBottom="16dp" />
+
+        <TextView
             android:id="@+id/tvHello"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
